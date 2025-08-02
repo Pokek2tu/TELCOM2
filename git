@@ -1,0 +1,15 @@
+# Entornos y archivos temporales
+.env
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Datos sensibles o pesados
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Archivos de Jupyter
+*.ipynb_checkpoints
