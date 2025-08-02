@@ -1,0 +1,23 @@
+telecom-churn-prediction/
+│
+├── data/
+│   ├── raw/               # Datos originales sin tratar
+│   └── processed/         # Datos limpios y transformados
+│
+├── notebooks/
+│   ├── EDA.ipynb          # Análisis exploratorio de datos
+│   └── Modelado.ipynb     # Construcción y evaluación de modelos
+│
+├── src/
+│   ├── preprocessing.py   # Funciones para limpieza y transformación
+│   ├── modeling.py        # Funciones para entrenar modelos
+│   └── utils.py           # Funciones generales de utilidad
+│
+├── reports/
+│   ├── visualizations/    # Gráficos y análisis visual
+│   └── conclusions.md     # Conclusión estratégica
+│
+├── .gitignore             # Archivos que Git debe ignorar
+├── README.md              # Descripción del proyecto
+├── requirements.txt       # Librerías necesarias
+└── Trello-link.md         # Enlace al tablero de organización
