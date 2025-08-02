@@ -1,0 +1,9 @@
+from sklearn.ensemble import RandomForestClassifier
+from src.modeling import split_datos, evaluar_modelo
+
+X_train, X_test, y_train, y_test = split_datos(df, 'Churn')
+
+modelo = RandomForestClassifier()
+modelo.fit(X_train, y_train)
+
+evaluar_modelo(modelo, X_test, y_test)
